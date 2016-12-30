@@ -1,0 +1,10 @@
+#!/usr/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'yagmail==0.4.114','console_scripts','yagmail'
+__requires__ = 'yagmail==0.4.114'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('yagmail==0.4.114', 'console_scripts', 'yagmail')()
+    )
